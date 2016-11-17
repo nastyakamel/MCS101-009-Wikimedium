@@ -5,3 +5,6 @@
 @import "content.css";
 @import "sidebar.css";
 @import "menubar.css";
+@import "posts.css";
+
+@import "responsive.css";
