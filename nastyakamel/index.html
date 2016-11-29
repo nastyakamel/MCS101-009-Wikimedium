@@ -19,6 +19,8 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="icon" type="image/png"    href="favicon.png" />
 
+    <script src="javascripts/jquery-3.1.1.js" charset="utf-8"></script>
+    <script src="javascripts/social-likes.min.js" charset="utf-8"></script>
 
   </head>
   <body class="landing">
@@ -30,7 +32,7 @@
 
     <section class="landingWrapper">
 
-      <section class="mainWrapper left">
+      <section class="mainSection left">
 
         <section>
           <h2>
@@ -49,7 +51,7 @@
         <figure class="mockup" id="mockup1"></figure>
       </section>
 
-      <section class="mainWrapper right">
+      <section class="mainSection right">
 
         <section>
           <h2>
@@ -68,7 +70,7 @@
         <figure class="mockup" id="mockup2"></figure>
       </section>
 
-      <section class="mainWrapper left">
+      <section class="mainSection left">
 
         <section>
           <h2>
@@ -88,19 +90,36 @@
         <figure class="mockup" id="mockup3"></figure>
       </section>
 
-      <section class="mainWrapper center">
+      <section class="mainSection center">
 
         <section>
           <h2>
-            Возможность самостоятельного и<br>
-            курируемого обучения.
+            Возможность самостоятельного<br>
+            и курируемого обучения.
           </h2>
           <p>
-            Вы можете обучаться самостоятельно по исходному коду проекта,<br>
-            выложенному на GitHub, или записаться на курс “Основы<br>
-            веб-вёрстки с Захаром Днём” на Hack Exchange.
+            Вы можете обучаться самостоятельно по исходному<br class=compact>
+            коду проекта,<br class=full>
+            выложенному на GitHub, или записаться<br class=compact>
+            на курс “Основы<br class=full>
+            веб-вёрстки с Захаром Днём” на Hack Exchange.<br class=compact>
           </p>
+
+          <nav>
+            <a class="btn small white" target="_blank" href="https://github.com/ZakharDay/Wikimedium/tree/gh-pages">Исходный код на GitHub</a>
+            <a class="btn large green" target="_blank" href="http://lessons.hack.exchange">Курс на Hack Exchage</a>
+          </nav>
         </section>
+
+        <footer>
+          <p>Пожалуйста, поделитесь знаниями с друзьями</p>
+          <div class="social-likes social-likes_single" data-url="http://wikimedium.hack.exchange/posts/index.html" data-single-title="Поделиться">
+            <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+            <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+            <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+            <div class="odnoklassniki" title="Поделиться ссылкой в Одноклассниках">Одноклассники</div>
+          </div>
+        </footer>
 
       </section>
 
